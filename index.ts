@@ -1,6 +1,8 @@
 // Import stylesheets
 import './style.css';
 
-// Write TypeScript code!
-const appDiv: HTMLElement = document.getElementById('app');
-appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
+const domElement = document.getElementById('app');
+const childElement = document.createElement('div');
+childElement.className = 'childDiv';
+childElement.innerHTML = '<button>Click Me</Button>';
+domElement.appendChild(childElement);

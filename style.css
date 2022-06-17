@@ -1,3 +1,25 @@
-h1, h2 {
-  font-family: Lato;
+.childDiv {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  border: 2px solid red;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+
+#app {
+  border: 2px solid lightblue;
+  padding: 10px;
+}
+
+.app {
+  /*
+  Here we're overriding the id="app" having higer preference
+  by class="app" due to !important property.
+  !important property makes preference order higher to whichever element
+  it is applied to
+  */
+  border: 2px solid black !important;
 }

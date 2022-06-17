@@ -1,3 +1,3 @@
 # typescript-wgsjwm
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/typescript-wgsjwm)
+This project is workaround on how we can manipulate DOM elements.
