@@ -9,7 +9,25 @@
   border-radius: 10px;
 }
 
+.childDiv1 {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+  border-radius: 10px;
+}
+
+.button{
+  background-color: grey;
+  cursor: pointer;
+}
+
 #app {
+  display: flex;
+  justify-content: space-around;
   border: 2px solid lightblue;
   padding: 10px;
 }
